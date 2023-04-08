@@ -1,0 +1,16 @@
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    animation: 10s abc infinite;
+    animation-delay: 2s;
+}
+
+@keyframes abc {
+    20% {background-color: red;}
+    50%{
+        background-color: black;
+        margin-left: 500px;
+        transform: rotate(360deg);
+    }
+}

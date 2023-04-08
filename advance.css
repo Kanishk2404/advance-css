@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+a {
+    color: green;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:active{
+    color: #58ef00;
+}
+
+a:hover{
+    color: blue;
+}
